@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sudoku.css">
+</head>
+<body>
+    <h1>Sudoku Solver</h1>
+    <div class="flex">
+        <div id="sudoku"></div>
+        <div class="main">
+            <div>
+                <span id="m">00</span>
+                <span> : </span>
+                <span id="s">00</span>
+                <span> : </span>
+                <span id="ms">00</span>
+            </div>
+            <div>
+                <p>Select level</p>
+                <div>
+                    <input class="level" type="radio" name="level" value="hard">Hard
+                    <input class="level" type="radio" name="level" value="medium">Medium
+                    <input class="level" type="radio" name="level" value="easy" checked>Easy
+                </div>
+            </div>
+            <button id="new">New Game</button>
+            <button id="sol">Solution</button>
+            <button id="clear">Clear</button>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="sudoku.js"></script>
+    
+</body>
+</html>

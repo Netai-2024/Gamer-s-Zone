@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">GameZone</div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#game_cards">Games</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="signin-btns">
+            <button class="signin-btn">Sign In</button>
+            <button class="signup-btn">Sign Up</button>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to GameZone</h1>
+            <p>Explore a world of exciting games.</p>
+            <a href="#game_cards" class="hero-btn">Explore Games</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="about_game.jpg" alt="About Image">
+            </div>
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>Discover our gaming site featuring Sudoku Solver, Snake & Ladder, Tic-Tac-Toe, and Whack-a-Mole. Engage in strategic challenges, classic fun, and fast-paced action. Perfect for players of all ages, our games offer intuitive gameplay and captivating visuals. Dive in and enjoy hours of entertainment with friends and family. Ready to play?</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="game_cards" >
+        <h2 class="section-title">Our Games</h2>
+        <div class="game-cards">
+            <div class="game-card" data-title="Game Title 1" data-image="game1.png" data-url="sudoku.html">
+                <div class="game-info">
+                    <h3>Sudoku Solver</h3>
+                    <p>Enjoy classic Sudoku puzzles online with our interactive game—challenge yourself and improve your logic skills!</p>
+                    <button class="play-btn">Play Now</button>
+                </div>
+            </div>
+            <div class="game-card" data-title="Game Title 2" data-image="game2.png" data-url="snake-ladder.html">
+                <div class="game-info">
+                    <h3>Snake & Ladder</h3>
+                    <p>Experience a fun digital rendition of the classic Snake and Ladder game for endless entertainment.</p>
+                    <button class="play-btn">Play Now</button>
+                </div>
+            </div>
+            <div class="game-card" data-title="Game Title 3" data-image="game3.png" data-url="Whack-mole.html">
+                <div class="game-info">
+                    <h3>Whack-a-Mole</h3>
+                    <p>Whack-a-mole game featuring fast-paced action, increasing difficulty levels, and scores to beat for competitive fun.</p>
+                    <button class="play-btn">Play Now</button>
+                </div>
+            </div>
+            <div class="game-card" data-title="Game Title 4" data-image="game4.png" data-url="TicTacToe.html">
+                <div class="game-info">
+                    <h3>Tic-Tac-Toe</h3>
+                    <p>Enjoy strategic fun with friends in this timeless grid-based challenge.</p>
+                    <button class="play-btn">Play Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="contact">
+        <div class="contact-content">
+            <h2 class="contact-heading">Contact Us</h2>
+            <div class="contact-flex">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <div class="contact-details">
+                    <h3>Contact Details</h3>
+                    <p><strong>Email:</strong> contact@example.com</p>
+                    <p><strong>Phone:</strong> +1234567890</p>
+                    <p><strong>Address:</strong> 123 Gaming Street, Game City</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 GameZone. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
