@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake & Ladder</title>
+    <link rel="stylesheet" href="snake-ladder.css">
+</head>
+<body>
+    <div id="all">
+        <div id="board"></div>
+        
+        <div id="functionalities">
+            <h1>Snakes & Ladder</h1>
+            <div class="flex">
+                <button onclick="start()" id="start">Start</button>
+                <button onclick="reset()" id="reset">Reset</button>
+                <button onclick="quit()" id="quit">Quit</button>
+            </div>
+            <p>Choose counter color</p>
+            <div class="flex">
+                <button class="guti" id="red" onclick="red()"></button>
+                <button class="guti" id="blue" onclick="blue()"></button>
+                <button class="guti" id="yellow" onclick="yellow()"></button>
+                <button class="guti" id="green" onclick="green()"></button>
+            </div>
+            <div id="dice"></div>
+            <button id="roll" onclick="roll()">Roll Dice</button>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="snake-ladder.js"></script>
+</body>
+</html>
