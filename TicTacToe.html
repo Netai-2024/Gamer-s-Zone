@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="TicTacToe.css">
+</head>
+<body>
+    <h1>TIC-TAC-TOE</h1>
+    <header>
+        <div class="tic">
+            <button class="sideborder" onclick="play(this)"></button>
+            <button class="sideborder" onclick="play(this)"></button>
+            <button onclick="play(this)"></button>
+            <button class="sideborder bottomUp" onclick="play(this)"></button>
+            <button class="sideborder bottomUp" onclick="play(this)"></button>
+            <button class="bottomUp" onclick="play(this)"></button>
+            <button class="sideborder" onclick="play(this)"></button>
+            <button class="sideborder" onclick="play(this)"></button>
+            <button onclick="play(this)"></button>
+        </div>
+        <div class="style">
+            <p id="turn">O your turn</p>
+            <button id="n" onclick="newgame()">New Game</button>
+            <button id="h" onclick="history()">History</button>
+            <div id="history" class="hide">
+            </div>
+            <p id="result"></p>
+            <audio src="Click - Sound Effect (HD).mp3"></audio>
+        </div>
+    </header>
+    <script src="TicTacToe.js"></script>
+</body>
+</html>
